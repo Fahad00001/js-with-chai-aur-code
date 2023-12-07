@@ -44,4 +44,6 @@ console.log(match);
 
 const orginalstring="42"
 const paddedstring=orginalstring.padStart(7,"0")
-console.log(paddedstring);
+console.log(paddedstring);//0000042
+
+
