@@ -1,8 +1,8 @@
 const myarr=[0,1,2,3,4,5]
-const myheroes=["shaktiman","nagaraj"]
+// const myheroes=["shaktiman","nagaraj"]
 
 
-const myarr2=new Array(1,2,3,4)
+// const myarr2=new Array(1,2,3,4)
 console.log(myarr[5]);
 
 
@@ -13,7 +13,7 @@ console.log(myarr.includes(9));//false
 console.log(myarr.indexOf(3));//3
 const newArr=myarr.join()
 console.log(myarr);
-console.log(newArr);
+console.log(newArr);//string
 
 
 console.log("A",myarr);
