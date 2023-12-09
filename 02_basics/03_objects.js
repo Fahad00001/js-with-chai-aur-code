@@ -26,3 +26,9 @@ jsuser.greetingtwo=function(){
 }
 console.log(jsuser.greeting());
 console.log(jsuser.greetingtwo());
+
+const mysym1=Symbol("mykey1")
+const jsuser1={
+    [mysym1]:"mykey1",
+}
+console.log(jsuser1[mysym1]);
